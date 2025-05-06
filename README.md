@@ -5,8 +5,10 @@
 - Chromedriver 需要查看Chrome版本下载对应Chromedriver
   具体步骤：https://blog.csdn.net/huixiaodezuotian/article/details/120225999
   Chromedriver下载地址：http://chromedriver.storage.googleapis.com/index.html
-
-#### 使用说明
+1、chrome://version/ 查看chrome的版本。
+2、可以直接从这个官方的网址下载    https://googlechromelabs.github.io/chrome-for-testing/   ，其中稳定版本是可用的。
+3、在进行2之前可以先进行chrome的卸载，控制面板，右键卸载。然后直接在2当中安装。记得将chrome的driver放到python路径下。
+ #### 使用说明
 本程序通过selenium模拟搜索并批量下载天眼查公司关系图，效果如下：
 1. 用户需要先选择其需要打开的Excel文件和默认的下载路径
 2. 程序会自己打开 https://www.tianyancha.com/relation 网站，但需要用户自行登录，预设时间为30秒
